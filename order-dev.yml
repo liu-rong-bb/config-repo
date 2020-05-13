@@ -1,4 +1,9 @@
 spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
   application:
     name: order
   datasource:
@@ -14,3 +19,6 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
 env:
   dev
+girl:
+  name:刘容
+  age:23
