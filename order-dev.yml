@@ -20,5 +20,5 @@ eureka:
 env:
   dev
 girl:
-  name:刘容
-  age:23
+  name: 刘容
+  age: 23
