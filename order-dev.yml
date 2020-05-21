@@ -16,6 +16,12 @@ spring:
     url: jdbc:mysql://192.168.43.141:3306/springCloud_Sell?characterEncoding=utf-8&useSSL=false
   jpa:
     show-sql: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.43.112:8761/eureka/
+  instance:
+    prefer-ip-address: true
   instance:
     prefer-ip-address: true
 env:
