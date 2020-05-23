@@ -19,9 +19,10 @@ hystrix:
 #       path: /myProduct/**
 #       serviceId: product
 #      对cookie放行
-#       sensitiveHeaders: 
+      sensitiveHeaders: 
 #    简洁写法
-#    product: /myProduct/**
+   product: /seller/**
+   order: /buyer/**
 
 #    不准访问某个地址
 #   ignored-patterns:
