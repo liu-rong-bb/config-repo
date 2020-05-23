@@ -14,18 +14,18 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 60000
-zuul:
-  #全部服务忽略敏感头（都可以传cookie）
-  sensitive-headers:
-  max:
-    host:
-      connections: 500
-  host:
-    socket-timeout-millis: 60000
-    connect-timeout-millis: 60000
-  routes:
-    product: /seller/**
-    order: /buyer/**
+# zuul:
+#   #全部服务忽略敏感头（都可以传cookie）
+#   sensitive-headers:
+#   max:
+#     host:
+#       connections: 500
+#   host:
+#     socket-timeout-millis: 60000
+#     connect-timeout-millis: 60000
+#   routes:
+#     product: /seller/**
+#     order: /buyer/**
 #   routes:
 #     myProduct:
 #       path: /myProduct/**
