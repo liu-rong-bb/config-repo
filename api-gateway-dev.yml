@@ -19,7 +19,7 @@ hystrix:
 #       path: /myProduct/**
 #       serviceId: product
 #      对cookie放行
-      sensitiveHeaders: 
+#       sensitiveHeaders: 
 #    简洁写法
    product: /seller/**
    order: /buyer/**
